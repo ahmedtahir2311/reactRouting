@@ -13,11 +13,12 @@ function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/dashboard" element={<Component />}>
+          <Route path="/home" element={<Component />}>
             <Route path="component-a" element={<ComponentA />} />
             <Route path="component-b" element={<ComponentB />} />
             <Route path="component-c" element={<ComponentC />} />
           </Route>
+          <Route path="/users" element={<Component />} />
         </Routes>
       </Router>
     </>
